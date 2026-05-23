@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa Restaurant - Project Presentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slide-container active" id="slide1">
+        <div class="title-layout">
+            <p>College Real-Time Project</p>
+            <h1>Maa <span class="highlight">Restaurant</span></h1>
+            <div class="divider"></div>
+            <p class="tagline">Digitizing the Culinary Experience</p>
+        </div>
+    </div>
+
+    <div class="slide-container" id="slide2">
+        <h2 class="slide-title">The <span class="highlight">Current</span> Challenge</h2>
+        <div class="content-area">
+            <div class="tile-grid">
+                <div class="tile">
+                    <i class="fa-solid fa-file-invoice"></i>
+                    <h3>Static Menus</h3>
+                    <p>Physical menus are hard to update and expensive to re-print frequently.</p>
+                </div>
+                <div class="tile">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>Delay in Updates</h3>
+                    <p>Prices and stock availability cannot be communicated to guests in real-time.</p>
+                </div>
+                <div class="tile">
+                    <i class="fa-solid fa-leaf"></i>
+                    <h3>Paper Waste</h3>
+                    <p>Traditional restaurants generate massive paper waste through disposable menus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container" id="slide3">
+        <h2 class="slide-title">Our <span class="highlight">Solution</span></h2>
+        <div class="content-area">
+            <div class="mockup-grid solution-view">
+                <div class="phone-mockup mini-mockup">
+                    <div class="phone-screen"></div>
+                </div>
+                <div>
+                    <h3 style="font-size: 36px; margin: 0 0 20px 0;">Digital Menu Ecosystem</h3>
+                    <p style="font-size: 20px; color: #aaa; margin-bottom: 30px;">We built a lightweight, cloud-hosted web application that allows customers to browse menus instantly via a QR scan. No downloads, no waiting.</p>
+                    <div class="stats-boxes">
+                        <div class="stat-box">
+                            <strong>100% Cloud</strong><br><small>Hosted on GitHub</small>
+                        </div>
+                        <div class="stat-box">
+                            <strong>Zero Lag</strong><br><small>Optimized Code</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container" id="slide4">
+        <h2 class="slide-title">Experience <span class="highlight">Live</span></h2>
+        <div class="content-area">
+            <div class="mockup-grid">
+                <div class="phone-mockup">
+                    <div class="phone-screen"></div>
+                </div>
+                <div class="qr-section">
+                    <h3 style="margin: 0 0 20px 0;">Scan to Interact</h3>
+                    <img class="qr-code-img" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://shivangichoudhary34.github.io/Maa_restaurent/" alt="Maa Restaurant QR">
+                    <p class="qr-link">shivangichoudhary34.github.io</p>
+                    <p class="qr-note">Requesting professors to please scan the code to view the live responsive UI on your smartphones.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container" id="slide5">
+        <h2 class="slide-title">Technology <span class="highlight">Stack</span></h2>
+        <div class="content-area">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Layer</th>
+                        <th>Technology</th>
+                        <th>Implementation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Frontend</strong></td>
+                        <td>HTML5 / CSS3</td>
+                        <td>Core structure and restaurant branding styles.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Responsiveness</strong></td>
+                        <td>Bootstrap 5</td>
+                        <td>Ensuring the menu looks perfect on all screen sizes.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hosting</strong></td>
+                        <td>GitHub Pages</td>
+                        <td>Direct repository deployment for real-time access.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="slide-container" id="slide6">
+        <div class="title-layout">
+            <h2 style="font-size: 80px; margin: 0;">Thank <span class="highlight">You</span></h2>
+            <p style="text-transform: none; margin-top: 20px; color: #888;">Questions & Feedback</p>
+            <div class="github-footer">
+                <i class="fa-brands fa-github"></i> github.com/shivangichoudhary34
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-controls">
+        <button id="prevBtn"><i class="fa-solid fa-arrow-left"></i> Prev</button>
+        <button id="nextBtn">Next <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
